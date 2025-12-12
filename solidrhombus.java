@@ -1,0 +1,21 @@
+public class solidrhombus{
+    public static void rhombus(int n){
+        // outer loop
+        for(int i=1;i<=n;i++){
+            // inner loop
+            // print spaces
+            for(int j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            // print stars
+            for(int j=1;j<=n;j++){
+                System.out.print("*");
+            }
+            // print next line
+            System.out.println();
+        } 
+    }
+    public static void main(String[] args) {
+        rhombus(7);
+    }
+}
